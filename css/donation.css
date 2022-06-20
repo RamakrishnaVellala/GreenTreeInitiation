@@ -1,0 +1,114 @@
+body{
+    font:15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+@media screen and (min-width:769px){*/
+ .main-container{
+   display: flex;
+    flex-direction: column;
+ }
+ header{
+    min-height: 70px;
+ }
+ header h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ }
+#payment{
+    min-height: 450px;
+}
+#payment .container{
+    background-image: url('../images/donation/annie-spratt-427340-unsplash@2x.png');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.payment form{
+    width: 40vw;
+    background-color:dimgray;
+    margin-top: 30px;
+    padding: 30px;
+    color: #f4f4f4;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    font-size: 15px;
+
+ }
+.your-inf0{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    flex-wrap: wrap;
+}
+#address,#card-number,#email-address{
+    width: 100%;
+}
+#state{
+    height: 35px;
+    width: 40px;
+
+}
+#zipcode{
+    width: 150px;
+}
+#expire{
+    width: 30px;
+}
+.form-container{
+    display:flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color:darkslategrey;
+    color: #f4f4f4;
+    height:max-content;
+    margin: 20px;
+    padding: 20px;
+}
+.payment-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+}
+a{
+    color: #f4f4f4;
+}
+.current{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+}
+.heading{
+    text-align: left;
+    font-size: 55px;
+    padding: 0;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:bisque;
+}
+.foot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+}

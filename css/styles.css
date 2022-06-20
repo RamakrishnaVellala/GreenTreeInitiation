@@ -1,0 +1,351 @@
+body{
+    font:15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width:769px){
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*header*/
+header{
+    background: #f4f4f4;
+    padding-top: 30px;
+}
+header a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 30px 0 30px;
+}
+
+
+
+header#branding h3{
+    margin: 0px;
+    font-size: 20px;
+    
+}
+
+header nav{
+
+    margin-top: 30px;
+    padding-top: 30px;
+    position:absolute;
+    top: 0px;
+    right: 35%;
+    
+}
+header#donate{
+    width: 25%;
+    margin-right: 10px;
+}
+.current{
+    background-color: aqua;
+    border-radius:30px;
+    height: 30px;
+    padding: 10px;
+}
+#issue-container {
+    min-height: 400px;
+    background-image:url('../images/home/annie-spratt-135307-unsplash@3x.png');
+    background-size: cover;
+    height: 100vh;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.issue-box{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+
+   
+}
+
+.box2{
+    width:30vw;
+    height: 60vh;
+    background-color:white;
+    color: black;
+    padding-left:50px;
+    padding-right:20px;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+.box2 h2{
+    font-size: 35px;
+
+}
+
+.box3{
+    background-color: black;
+    width:max-content;
+    color: #f4f4f4;
+    z-index: 2;
+    position: relative;
+    top: 0px;
+    transform: translate(30%,-100%);
+
+}
+.action{
+  margin: auto;
+}
+
+ .foot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Tree planting*/
+.do-container{
+    display: flex;
+    flex-direction: column;  
+    background-color:black;
+    padding: 30px;
+
+}
+.do-container button{
+    width: 150px;
+    height: 38px;
+}
+.do-container h1{
+   color:#f4f4f4;
+   font-weight: bold;
+   font-size: 38px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box{
+    width: 250px;
+    height:fit-content;
+    background-color: aliceblue;
+    color: black;
+    padding-left: 20px;
+}
+.img{
+   width: 230px;
+   height: 200px;
+   z-index: 1;
+   position: relative;
+   transform: translate(0%,-10%);
+
+}
+.round-button{
+    width: 150px;
+    height: 38px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+
+}
+
+.email{
+    width: 250px;
+    height: 38px;
+    margin: 20px;
+    border-radius: 25px;
+}
+.news-container{
+    display: flex;
+    min-height: 150px;
+    background-color: aqua;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.readbtn{
+    width: 200px;
+    border-radius: 25px;
+    height: 38px;
+    background-color: black;
+    color: #f4f4f4;
+}
+
+.change-container{
+
+    background: url('../images/home/did-you-know-background@3x.png') no-repeat 0 -100px; ;
+    background-size:cover;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+
+}
+.heading{
+    text-align: left;
+    font-size: 55px;
+    padding: 0;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:bisque;
+}
+.sbox{
+    background-color: black;
+    width: fit-content;
+    color: #f4f4f4;
+    z-index: 3;
+    position: relative;
+    transform: translate(10%,-30%);
+}
+.rating-box{
+    width: 400px;
+    height: 150px;
+    background-color: #f4f4f4;
+    padding-left: 10px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 15px;
+   
+ 
+}
+
+.analyze-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0;
+
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.icon{
+
+    border-radius: 40px;
+    width: 20px;
+    height: 20px;
+}
+.description{
+    width: 40vw;
+    height: fit-content;
+}
+.story-container{
+    min-height: 400px;
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right:10vw;
+}
+.stories{
+    background-color: black;
+    width: fit-content;
+    color: #f4f4f4;
+    z-index: 3;
+    position: relative;
+    transform: translate(-10%,-15%);
+}
+.story-image{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+ 
+}
+.message-container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.message-container div{
+    background-color: black;
+    color: #f4f4f4;
+    z-index: 3;
+    position: relative;
+    transform: translate(80%,-10%);
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    
+}
+.round-btn{
+    width: 150px;
+    height: 38px;
+    border-radius: 40px;
+    background-color: aquamarine;
+    margin: 50px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    margin-top: 20px;
+
+}
+.event-container{
+    background-color: black;
+    color: #f4f4f4;
+    height: max-content;
+    padding-top: 50px;
+    padding-left:75px;
+
+}
+.box4{
+    background-color: black;
+    width:200px;
+    height: 30px;
+    padding-bottom:10px;
+    color: #f4f4f4;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    transform: translate(180%,20%);  
+}
+.event-container h1{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.plan-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.event-img{
+    width: 40vw;
+    height: 400px;
+
+
+}
+}
